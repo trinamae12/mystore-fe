@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, CardContent, CardMedia, Typography, CardActions, Button, Box } from '@mui/material';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import VisibilityIcon from '@mui/icons-material/Visibility';
+import appleImage from '../assets/apple.jpg';
 
 const Product = () => {
     return (
@@ -9,8 +10,11 @@ const Product = () => {
         <CardMedia
           component="img"
           height="200"
-        //   image={product.image}
+          image={appleImage}
           alt="product"
+          sx={{
+            objectFit: 'contain'
+          }}
         />
         <CardContent>
           <Typography variant="h6" component="div">
