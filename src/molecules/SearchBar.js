@@ -9,7 +9,11 @@ const SearchBar = ({ align = 'center' }) => {
         placeholder="Search here..."
         // align={align}
         //onChange={onChange}
-        sx={{ width: '50%' }}
+        sx={{ width: '50%', 
+          '& .MuiOutlinedInput-root': {
+            borderRadius: '50px',
+          },
+         }}
         InputProps={{
           startAdornment: (
             <InputAdornment position="start">

@@ -64,8 +64,9 @@ const Header = () => {
                 <AppBar position={isScrolled ? 'fixed' : 'static'} sx={{ color: "#000", backgroundColor: "#fff"}}>
                     <Toolbar sx={{
                         display: 'flex',
-                        justifyContent: 'space-between',
+                        justifyContent: 'space-around',
                         alignItems: 'center',
+                        padding: '15px'
                     }}>
                         <Typography
                             component="h2"
@@ -107,37 +108,119 @@ const Header = () => {
             <Toolbar
                 component="nav"
                 variant="dense"
-                sx={{ justifyContent: 'space-between', overflowX: 'auto' }}
+                sx={{ justifyContent: 'center', overflowX: 'auto', padding: '12px' }}
             >
             <Link
                 color="inherit"
                 noWrap
-                key="link1"
+                key="deals"
                 variant="body2"
                 href="#"
-                sx={{ p:1, flexShrink: 0 }}
+                sx={{ p:1, flexShrink: 0, textDecoration: 'none', '&:hover': {color: 'red'} }}
             >
-                Link 1
+                <Typography sx={{
+                    fontFamily: 'Roboto, Arial, sans-serif',
+                    fontSize: '20px',
+                    fontWeight: 300
+                }}>
+                Deals
+                </Typography>
             </Link>
             <Link
                 color="inherit"
                 noWrap
-                key="link2"
+                key="food"
                 variant="body2"
                 href="#"
-                sx={{ p:1, flexShrink: 0 }}
+                sx={{ p:1, flexShrink: 0, textDecoration: 'none', '&:hover': {color: 'red'} }}
             >
-                Link 2
+                <Typography sx={{
+                    fontFamily: 'Roboto, Arial, sans-serif',
+                    fontSize: '20px',
+                    fontWeight: 300
+                }}>
+                    Food
+                </Typography>
             </Link>
             <Link
                 color="inherit"
                 noWrap
-                key="link3"
+                key="beverages"
                 variant="body2"
                 href="#"
-                sx={{ p:1, flexShrink: 0 }}
+                sx={{ p:1, flexShrink: 0, textDecoration: 'none', '&:hover': {color: 'red'}  }}
             >
-                Link 3
+                <Typography sx={{
+                    fontFamily: 'Roboto, Arial, sans-serif',
+                    fontSize: '20px',
+                    fontWeight: 300
+                }}>
+                    Beverages
+                </Typography>
+            </Link>
+            <Link
+                color="inherit"
+                noWrap
+                key="household"
+                variant="body2"
+                href="#"
+                sx={{ p:1, flexShrink: 0, textDecoration: 'none', '&:hover': {color: 'red'}  }}
+            >
+                <Typography sx={{
+                    fontFamily: 'Roboto, Arial, sans-serif',
+                    fontSize: '20px',
+                    fontWeight: 300
+                }}>
+                    Household
+                </Typography>
+            </Link>
+            <Link
+                color="inherit"
+                noWrap
+                key="personalCare"
+                variant="body2"
+                href="#"
+                sx={{ p:1, flexShrink: 0, textDecoration: 'none', '&:hover': {color: 'red'} }}
+            >
+                <Typography sx={{
+                    fontFamily: 'Roboto, Arial, sans-serif',
+                    fontSize: '20px',
+                    fontWeight: 300
+                }}>
+                    Personal Care
+                </Typography>
+            </Link>
+            <Link
+                color="inherit"
+                noWrap
+                key="mostPopular"
+                variant="body2"
+                href="#"
+                sx={{ p:1, flexShrink: 0, textDecoration: 'none', '&:hover': {color: 'red'}  }}
+            >
+                <Typography sx={{
+                    fontFamily: 'Roboto, Arial, sans-serif',
+                    fontSize: '20px',
+                    fontWeight: 300
+                }}>
+                    Most Popular
+                </Typography>
+            </Link>
+            <Link
+                color="inherit"
+                noWrap
+                key="myOrders"
+                variant="body2"
+                href="#"
+                sx={{ p:1, flexShrink: 0, textDecoration: 'none', '&:hover': {color: 'red'} }}
+            >
+                <Typography sx={{
+                    fontFamily: 'Roboto, Arial, sans-serif',
+                    fontSize: '20px',
+                    fontWeight: 300
+                }}>
+                    My Orders
+                </Typography>
             </Link>
             </Toolbar>
         </>
