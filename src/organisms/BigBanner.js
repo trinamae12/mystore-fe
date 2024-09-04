@@ -13,7 +13,6 @@ const BigBanner = () => {
                 position: 'relative',
                 backgroundColor: 'gray',
                 color: '#000',
-                mb: 4,
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'center',

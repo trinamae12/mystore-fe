@@ -20,11 +20,12 @@ const Dashboard = () => {
         <>
             <Header />
             <BigBanner />
-            <Grid container spacing={4} sx={{ paddingLeft: 3, paddingRight: 3, mb: 3 }}>
-                <ShopFeatures />
-                <ShopFeatures />
-                <ShopFeatures />
-                <ShopFeatures />
+            {/** Loop later and set borderRight style to none on last item */}
+            <Grid container spacing={4} sx={{ margin: '10px', justifyContent: 'center' }}>
+                <ShopFeatures feature="shipping"/>
+                <ShopFeatures feature="pickup"/>
+                <ShopFeatures feature="support"/>
+                <ShopFeatures feature="mobile"/>
             </Grid>
             {/** body - to be created a separate component */}
             <main>
