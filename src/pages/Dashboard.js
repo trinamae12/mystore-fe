@@ -107,53 +107,44 @@ const Dashboard = () => {
                                         padding: '20px',
                                     }}
                                     >
-                                    {/* <Typography variant="h2" gutterBottom>
-                                        Title
-                                    </Typography>
-                                    <Typography variant="h6" gutterBottom>
-                                        Description
-                                    </Typography>
-                                    <Button variant="contained" color="primary" size="large">
-                                        Button
-                                    </Button> */}
-                                                <Grid container>
-                <Grid item md={6}>
-                    <Box
-                        sx={{
-                        position: 'relative',
-                        p: { xs: 3, md: 6 },
-                        pr: { md: 0 },
-                        }}
-                    >
-                        <Typography component="h1" variant="h5" color="inherit" gutterBottom>
-                            Easy, Fresh and Convenient
-                        </Typography>
-                        <Typography component="h1" variant="h5" color="inherit" sx={{
-                            fontWeight: 700
-                        }} paragraph>
-                            Stock Up on Daily Essentials
-                        </Typography>
-                        <Typography variant="h5" color="inherit" sx={{
-                            fontWeight: 500
-                        }}paragraph>
-                            Save Big on Your
-                        </Typography>
-                        <Typography variant="h5" color="inherit" sx={{
-                            fontWeight: 500,
-                            mb: 5
-                        }}>
-                            Favorite Brands
-                        </Typography>
-                        <Button variant="subtitle1" sx={{
-                            backgroundColor: 'red',
-                            color: '#fff',
-                            borderRadius: '40px'
-                        }}>
-                            Shop Online
-                        </Button>
-                    </Box>
-                </Grid>
-            </Grid>
+                                        <Grid container>
+                                            <Grid item md={6}>
+                                                <Box
+                                                    sx={{
+                                                    position: 'relative',
+                                                    p: { xs: 3, md: 6 },
+                                                    pr: { md: 0 },
+                                                    }}
+                                                >
+                                                    <Typography component="h1" variant="h5" color="inherit" gutterBottom>
+                                                        Easy, Fresh and Convenient
+                                                    </Typography>
+                                                    <Typography component="h1" variant="h5" color="inherit" sx={{
+                                                        fontWeight: 700
+                                                    }} paragraph>
+                                                        Stock Up on Daily Essentials
+                                                    </Typography>
+                                                    <Typography variant="h5" color="inherit" sx={{
+                                                        fontWeight: 500
+                                                    }}paragraph>
+                                                        Save Big on Your
+                                                    </Typography>
+                                                    <Typography variant="h5" color="inherit" sx={{
+                                                        fontWeight: 500,
+                                                        mb: 5
+                                                    }}>
+                                                        Favorite Brands
+                                                    </Typography>
+                                                    <Button variant="subtitle1" sx={{
+                                                        backgroundColor: 'red',
+                                                        color: '#fff',
+                                                        borderRadius: '40px'
+                                                    }}>
+                                                        Shop Online
+                                                    </Button>
+                                                </Box>
+                                            </Grid>
+                                        </Grid>
                                 </Box>
                                 </Grid>
                                 <Grid item xs={12} md={4}>
@@ -172,61 +163,47 @@ const Dashboard = () => {
                                         padding: '20px',
                                     }}
                                     >
-            <Grid container>
-                <Grid item md={6}>
-                    <Box
-                        sx={{
-                        position: 'relative',
-                        p: { xs: 3, md: 6 },
-                        pr: { md: 0 },
-                        }}
-                    >
-                        <Typography component="h1" variant="h5" color="inherit" gutterBottom>
-                            Easy, Fresh and Convenient
-                        </Typography>
-                        <Typography component="h1" variant="h5" color="inherit" sx={{
-                            fontWeight: 700
-                        }} paragraph>
-                            Stock Up on Daily Essentials
-                        </Typography>
-                        <Typography variant="h5" color="inherit" sx={{
-                            fontWeight: 500
-                        }}paragraph>
-                            Save Big on Your
-                        </Typography>
-                        <Typography variant="h5" color="inherit" sx={{
-                            fontWeight: 500,
-                            mb: 5
-                        }}>
-                            Favorite Brands
-                        </Typography>
-                        <Button variant="subtitle1" sx={{
-                            backgroundColor: 'red',
-                            color: '#fff',
-                            borderRadius: '40px'
-                        }}>
-                            Shop Online
-                        </Button>
-                    </Box>
-                </Grid>
-            </Grid>
+                                        <Grid container>
+                                            <Grid item md={6}>
+                                                <Box
+                                                    sx={{
+                                                    position: 'relative',
+                                                    p: { xs: 3, md: 6 },
+                                                    pr: { md: 0 },
+                                                    }}
+                                                >
+                                                    <Typography component="h1" variant="h5" color="inherit" gutterBottom>
+                                                        Easy, Fresh and Convenient
+                                                    </Typography>
+                                                    <Typography component="h1" variant="h5" color="inherit" sx={{
+                                                        fontWeight: 700
+                                                    }} paragraph>
+                                                        Stock Up on Daily Essentials
+                                                    </Typography>
+                                                    <Typography variant="h5" color="inherit" sx={{
+                                                        fontWeight: 500
+                                                    }}paragraph>
+                                                        Save Big on Your
+                                                    </Typography>
+                                                    <Typography variant="h5" color="inherit" sx={{
+                                                        fontWeight: 500,
+                                                        mb: 5
+                                                    }}>
+                                                        Favorite Brands
+                                                    </Typography>
+                                                    <Button variant="subtitle1" sx={{
+                                                        backgroundColor: 'red',
+                                                        color: '#fff',
+                                                        borderRadius: '40px'
+                                                    }}>
+                                                        Shop Online
+                                                    </Button>
+                                                </Box>
+                                            </Grid>
+                                        </Grid>
                                 </Box>
                                 </Grid>
                             </Grid>
-                            {/* <Grid container sx={{width: '20%'}}>
-                                <BigBanner/>
-                            </Grid> */}
-                            {/* <Box
-                                sx={{
-                                display: 'flex',
-                                justifyContent: 'center',
-                                alignItems: 'center',
-                                }}
-                            >
-                                <Button variant="contained" sx={{mt: 3, }}>
-                                    More
-                                </Button>
-                            </Box> */}
                         </Grid>
                         <Grid item key="p2" xs={12}>
                             <Typography variant="h4" sx={{ mb: 3 }}>Dairy Products</Typography>
