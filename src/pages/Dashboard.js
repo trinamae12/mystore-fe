@@ -102,38 +102,38 @@ const Dashboard = () => {
                                         flexDirection: 'column',
                                         justifyContent: 'center',
                                         alignItems: 'flex-start',
-                                        color: '#fff',
+                                        color: '#000',
                                         //textAlign: 'center',
-                                        padding: '20px',
+                                        //padding: '20px',
                                     }}
                                     >
                                         <Grid container>
-                                            <Grid item md={6}>
+                                            <Grid item md={8}>
                                                 <Box
                                                     sx={{
                                                     position: 'relative',
-                                                    p: { xs: 3, md: 6 },
+                                                    p: { xs: 4, md: 8 },
                                                     pr: { md: 0 },
                                                     }}
                                                 >
                                                     <Typography component="h1" variant="h5" color="inherit" gutterBottom>
-                                                        Easy, Fresh and Convenient
-                                                    </Typography>
-                                                    <Typography component="h1" variant="h5" color="inherit" sx={{
-                                                        fontWeight: 700
-                                                    }} paragraph>
-                                                        Stock Up on Daily Essentials
+                                                        It's Wine O' Clock!
                                                     </Typography>
                                                     <Typography variant="h5" color="inherit" sx={{
                                                         fontWeight: 500
                                                     }}paragraph>
-                                                        Save Big on Your
+                                                        Great Deals on
+                                                    </Typography>
+                                                    <Typography component="h1" variant="h5" color="inherit" sx={{
+                                                        fontWeight: 700
+                                                    }} paragraph>
+                                                        Selected Wines
                                                     </Typography>
                                                     <Typography variant="h5" color="inherit" sx={{
-                                                        fontWeight: 500,
+                                                        fontWeight: 100,
                                                         mb: 5
                                                     }}>
-                                                        Favorite Brands
+                                                        I'm a sample paragraph.
                                                     </Typography>
                                                     <Button variant="subtitle1" sx={{
                                                         backgroundColor: 'red',
@@ -158,38 +158,34 @@ const Dashboard = () => {
                                         flexDirection: 'column',
                                         justifyContent: 'center',
                                         alignItems: 'center',
-                                        color: '#fff',
-                                        textAlign: 'center',
-                                        padding: '20px',
+                                        color: '#000',
+                                        //textAlign: 'center',
+                                        //padding: '20px',
                                     }}
                                     >
                                         <Grid container>
-                                            <Grid item md={6}>
+                                            <Grid item md={8}>
                                                 <Box
                                                     sx={{
                                                     position: 'relative',
-                                                    p: { xs: 3, md: 6 },
+                                                    p: { xs: 4, md: 8 },
                                                     pr: { md: 0 },
                                                     }}
                                                 >
                                                     <Typography component="h1" variant="h5" color="inherit" gutterBottom>
-                                                        Easy, Fresh and Convenient
+                                                        Deal of the Week
                                                     </Typography>
                                                     <Typography component="h1" variant="h5" color="inherit" sx={{
-                                                        fontWeight: 700
+                                                        fontWeight: 700,
+                                                        fontSize: '3rem'
                                                     }} paragraph>
-                                                        Stock Up on Daily Essentials
-                                                    </Typography>
-                                                    <Typography variant="h5" color="inherit" sx={{
-                                                        fontWeight: 500
-                                                    }}paragraph>
-                                                        Save Big on Your
+                                                        40% Off
                                                     </Typography>
                                                     <Typography variant="h5" color="inherit" sx={{
                                                         fontWeight: 500,
-                                                        mb: 5
-                                                    }}>
-                                                        Favorite Brands
+                                                        fontSize: '1.3rem'
+                                                    }}paragraph>
+                                                        Cleaning Supplies
                                                     </Typography>
                                                     <Button variant="subtitle1" sx={{
                                                         backgroundColor: 'red',
